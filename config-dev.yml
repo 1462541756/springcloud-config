@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: cloud-dev2
+    name: cloud-dev
 
 config:
   info: ${spring.application.name}
