@@ -1,9 +1,9 @@
 server:
-  port: 3000
+  port: 3001
 
 spring:
   application:
-    name: cloud-dev
+    name: cloud-dev2
 
 config:
   info: ${spring.application.name}
