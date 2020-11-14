@@ -1,0 +1,10 @@
+server:
+  port: 3003
+
+spring:
+  application:
+    name: cloud-test
+
+config:
+  info: ${spring.application.name}
+  port: ${server.port}

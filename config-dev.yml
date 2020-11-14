@@ -1,2 +1,10 @@
+server:
+  port: 3001
+
+spring:
+  application:
+    name: cloud-dev
+
 config:
-  info: "master branch,config-repo config-dev.yml version=1.0"
+  info: ${spring.application.name}
+  port: ${server.port}
