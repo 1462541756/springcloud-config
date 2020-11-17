@@ -1,6 +1,6 @@
 spring:
   application:
-    name: cloud-test
+    name: cloud-test2
 
 config:
   info: ${spring.application.name}
