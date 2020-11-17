@@ -1,6 +1,6 @@
 spring:
   application:
-    name: cloud-prod2
+    name: cloud-prod
 
 config:
   info: ${spring.application.name}
